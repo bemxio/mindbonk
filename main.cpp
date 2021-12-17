@@ -7,10 +7,10 @@ int live() {
     Interpreter interpreter;
     std::string code;
 
-    std::cout << "brainfuck live interpreter" << std::endl;
+    std::cout << "mindfuck: a brainfuck live interpreter" << std::endl;
 
     while (true) {
-        std::cout << "::: ";
+        std::cout << "=== ";
         std::cin >> code;
 
         interpreter.run(code);
